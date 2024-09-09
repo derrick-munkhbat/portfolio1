@@ -1,8 +1,8 @@
 export function Tailwind() {
   return (
     <svg
-      width="105"
-      height="63"
+      width="100"
+      height="60"
       viewBox="0 0 105 63"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -50,10 +50,10 @@ export default function Home() {
           <div className="lg:w-3/4 p-5">
             <h2 className="text-3xl mt-10">Hi, I’m Derrick Munkhbat 👋</h2>
             <p className="text-base mt-2 text-slate-500 text-justify">
-              I'm a junior full stack developer (React.js &
-              Node.js) with a focus on creating (and occasionally designing)
-              exceptional digital experiences that are fast, accessible,
-              visually appealing, and responsive.
+              I'm a junior full stack developer (React.js & Node.js) with a
+              focus on creating (and occasionally designing) exceptional digital
+              experiences that are fast, accessible, visually appealing, and
+              responsive.
             </p>
 
             <div className="flex items-center mt-10">
@@ -96,9 +96,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col p-5 lg:w-2/3">
-              <h2 className="text-3xl text-center mb-5">
-                Curious about me? Here you have it:
-              </h2>
+              <h2 className="text-3xl text-center mb-5">Curious about me?</h2>
               <p className="text-base text-slate-500 text-justify">
                 Responsible and humble junior level full stack web developer
                 with a solid foundation in front-end and back-end development
@@ -183,6 +181,10 @@ export default function Home() {
                 <Git />
                 <p className="text-slate-700 font-medium">Git</p>
               </div>
+              <div className="flex flex-col items-center justify-center gap-2">
+                <Upwork />
+                <p className="text-slate-700 font-medium">Upwork</p>
+              </div>
             </div>
           </div>
           {/* <Skills /> */}
@@ -198,19 +200,24 @@ export default function Home() {
             Here is a quick summary of my most recent experiences:
           </p>
 
-          <div className="flex flex-col gap-5">
-            <div className="flex flex-col border-black rounded-xl w-80 bg-white p-5 gap-5">
+          <div className="sm:flex-col md:flex md:flex-wrap gap-5">
+            <div className="flex-1 flex flex-col border-black rounded-xl w-full bg-white p-5 gap-5">
               <h3 className="text-green-600 font-bold text-2xl">
                 Pinecone Academy
               </h3>
-              <p>Nov 2023 - May 2024 </p>
+              <p>Nov 2023 - July 2024 </p>
 
-              <h1 className="text-xl decoration-4">Full stack web developer</h1>
+              <h1 className="text-xl decoration-4">
+                Full stack web developer internship
+              </h1>
               <ul className="flex flex-col text-justify gap-2">
-                <li>currently enrolled</li>
+                <li>
+                  Pinecone Academy website employee payroll function and
+                  features backend service
+                </li>
               </ul>
             </div>
-            <div className="flex flex-col border-black rounded-xl w-80 bg-white p-5 gap-5">
+            <div className="flex-1 flex flex-col border-black rounded-xl w-full bg-white p-5 gap-5">
               <h3 className="text-green-600 font-bold text-2xl">Remax Hub</h3>
               <p>Jan 2021 - Dec 2023 </p>
 
@@ -223,7 +230,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="flex flex-col border-black rounded-xl w-80 bg-white p-5 gap-5">
+            <div className="flex-1 flex flex-col border-black rounded-xl w-full bg-white p-5 gap-5">
               <h3 className="text-green-600 font-bold text-2xl">
                 Beijing Wok Restaurant
               </h3>
@@ -238,7 +245,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="flex flex-col border-black rounded-xl w-80 bg-white p-5 gap-5">
+            <div className="flex-1 flex flex-col border-black rounded-xl w-full bg-white p-5 gap-5">
               <h3 className="text-green-600 font-bold text-2xl">
                 Comcast Xfinity LLC
               </h3>
@@ -249,8 +256,8 @@ export default function Home() {
               </h1>
               <ul className="flex flex-col text-justify gap-2">
                 <li>
-                  Installing and troubleshooting internet network and security
-                  system for residential and commercial spaces in Chicago area.
+                  Install and troubleshoot internet network and security system
+                  for residential and commercial spaces in Chicago area.
                 </li>
               </ul>
             </div>
