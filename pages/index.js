@@ -16,7 +16,6 @@ import {
   Figma,
   Git,
   Tailwind,
-  Action,
   Email,
   Copy,
   Cell,
