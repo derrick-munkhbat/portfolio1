@@ -4,9 +4,9 @@ import { Menu } from "./icon/Menu";
 export function MainMenu({ items }) {
   return (
     <div>
-      <div className="hidden lg:flex">
+      <div className="hidden lg:flex font-bold">
         {items.map((item) => (
-          <a key={item.id} a className="px-4 py-2" href={item.link}>
+          <a key={item.id} className="px-4 py-2" href={item.link}>
             {item.label}
           </a>
         ))}

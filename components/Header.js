@@ -6,7 +6,7 @@ import { ThemeChanger } from "./ThemeChanger";
 export function Header() {
   return (
     <div className="border-2 rounded flex justify-between p-4 items-center dark:white">
-      <div className="dark:fill-slate-300">
+      <div className="dark:fill-slate-200">
         <Logo />
       </div>
 
@@ -18,7 +18,7 @@ export function Header() {
           download
           className="bg-black text-white rounded p-0 px-4 py-2 dark:bg-white dark:text-black"
         >
-          <h1>Download CV</h1>
+          <h1>Click to Download CV</h1>
         </a>
       </div>
     </div>

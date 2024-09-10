@@ -28,19 +28,19 @@ import { Chip } from "@/components/Chip";
 
 export default function Home() {
   return (
-    <div className="pt-20 lg:p-20 max-lg:w-96 mx-auto justify-center dark:bg-black dark:text-white">
+    <div className="pt-20 lg:p-20 max-lg:w-96 mx-auto justify-center dark:bg-black dark:text-slate-300">
       <div className="p-1">
         <Header />
 
         {/* INTRO */}
 
-        <div className="lg:flex flex-row-reverse mt-10 gap-20">
-          <div className="flex p-10">
-            <div className="relative bg-slate-300 w-80 h-96 top-10 left-10">
+        <div className="lg:flex flex-row-reverse gap-20 my-10">
+          <div className="flex p-10 dark:opacity-80">
+            <div className="relative bg-slate-300 w-80 h-96 top-5 left-5 rounded-lg">
               background
             </div>
             <img
-              className="absolute shadow-2xl w-90 h-96 border-white border-8"
+              className="absolute shadow-2xl w-90 h-96 border-white border-8 rounded-lg"
               src="/images/headshot.jpg"
               alt="profile-portrait"
             />
@@ -81,12 +81,12 @@ export default function Home() {
 
         {/*ABOUT ME */}
         <div>
-          <div className="flex flex-col gap-2 items-center justify-center p-5 mb-5 mt-5">
+          <div className="flex flex-col items-center justify-center p-5">
             <Chip label="About me" />
           </div>
 
-          <div className="lg:flex gap-5">
-            <div className="flex justify-center lg:w-1/3 h-full">
+          <div className="lg:flex gap-10 my-10">
+            <div className="flex justify-center lg:w-1/3">
               <img
                 className="rounded-2xl shadow-2xl"
                 src="/images/IMG_0133.jpeg"
@@ -134,55 +134,55 @@ export default function Home() {
             The skills, tools and technologies I am really good at:
           </p>
 
-          <div className="mt-5 mb-5">
-            <div className="grid lg:grid-cols-6 grid-cols-3 gap-4">
+          <div className="my-10">
+            <div className="grid lg:grid-cols-6 grid-cols-3 gap-4 dark:text-slate-400 dark:font-medium">
               <div className="flex flex-col items-center justify-center gap-2">
                 <Js />
-                <p className="text-slate-700 font-medium">JavaScript</p>
+                <p>JavaScript</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-2">
                 <Ts />
-                <p className="text-slate-700 font-medium">Typescript</p>
+                <p>Typescript</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-2">
                 <React />
-                <p className="text-slate-700 font-medium">React</p>
+                <p>React</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-2">
                 <Next />
-                <p className="text-slate-700 font-medium">Next.js</p>
+                <p>Next.js</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-2">
                 <Node />
-                <p className="text-slate-700 font-medium">Node.js</p>
+                <p>Node.js</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-2">
                 <Express />
-                <p className="text-slate-700 font-medium">Express.js</p>
+                <p>Express.js</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-2">
                 <Mongo />
-                <p className="text-slate-700 font-medium">MongoDB</p>
+                <p>MongoDB</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-2">
                 <Tailwind />
-                <p className="text-slate-700 font-medium">Tailwindcss</p>
+                <p>Tailwindcss</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-2">
                 <Post />
-                <p className="text-slate-700 font-medium">PostgreSQL</p>
+                <p>PostgreSQL</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-2">
                 <Figma />
-                <p className="text-slate-700 font-medium">Figma</p>
+                <p>Figma</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-2">
                 <Git />
-                <p className="text-slate-700 font-medium">Git</p>
+                <p>Git</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-2">
                 <Upwork />
-                <p className="text-slate-700 font-medium">Upwork</p>
+                <p>Upwork</p>
               </div>
             </div>
           </div>
@@ -191,7 +191,7 @@ export default function Home() {
 
         {/* EXPERIENCE */}
 
-        <div className="flex flex-col rounded-2xl items-center bg-slate-100 p-5 dark:bg-slate-300">
+        <div className="flex flex-col rounded-2xl items-center bg-slate-100 p-5 dark:opacity-80 mb-10">
           <div className="flex flex-col items-center p-5">
             <Chip label="Experience" />
           </div>
@@ -199,7 +199,7 @@ export default function Home() {
             Here is a quick summary of my most recent experiences:
           </p>
 
-          <div className="sm:flex-col md:flex md:flex-wrap gap-5">
+          <div className="sm:flex-col md:flex md:flex-wrap gap-5 dark:text-slate-600">
             <div className="flex-1 flex flex-col border-black rounded-xl w-full bg-white p-5 gap-5">
               <h3 className="text-green-600 font-bold text-2xl">
                 Pinecone Academy
