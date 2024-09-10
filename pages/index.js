@@ -144,47 +144,47 @@ export default function Home() {
                 <Js />
                 <p>JavaScript</p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 hover:animate-bounce ease-in-out">
+              <div className="flex flex-col items-center justify-center gap-2 ">
                 <Ts />
                 <p>Typescript</p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 hover:animate-bounce ease-in-out">
+              <div className="flex flex-col items-center justify-center gap-2 ">
                 <React />
                 <p>React</p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 hover:animate-bounce ease-in-out">
+              <div className="flex flex-col items-center justify-center gap-2 ">
                 <Next />
                 <p>Next.js</p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 hover:animate-bounce ease-in-out">
+              <div className="flex flex-col items-center justify-center gap-2 ">
                 <Node />
                 <p>Node.js</p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 hover:animate-bounce ease-in-out">
+              <div className="flex flex-col items-center justify-center gap-2 ">
                 <Express />
                 <p>Express.js</p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 hover:animate-bounce ease-in-out">
+              <div className="flex flex-col items-center justify-center gap-2 ">
                 <Mongo />
                 <p>MongoDB</p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 hover:animate-bounce ease-in-out">
+              <div className="flex flex-col items-center justify-center gap-2 ">
                 <Tailwind />
                 <p>Tailwindcss</p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 hover:animate-bounce ease-in-out">
+              <div className="flex flex-col items-center justify-center gap-2 ">
                 <Post />
                 <p>PostgreSQL</p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 hover:animate-bounce ease-in-out">
+              <div className="flex flex-col items-center justify-center gap-2 ">
                 <Figma />
                 <p>Figma</p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 hover:animate-bounce ease-in-out">
+              <div className="flex flex-col items-center justify-center gap-2 ">
                 <Git />
                 <p>Git</p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 hover:animate-bounce ease-in-out">
+              <div className="flex flex-col items-center justify-center gap-2 ">
                 <Upwork />
                 <p>Upwork</p>
               </div>

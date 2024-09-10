@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu } from "./icon/Menu";
+import { ThemeChanger } from "./ThemeChanger";
 
 export function MainMenu({ items }) {
   return (
@@ -37,15 +38,16 @@ function MobileMenu({ items }) {
       <button className="flex lg:hidden" onClick={openMenu}>
         <Menu />
       </button>
-      {visible && <div className="z-10 fixed bg-slate-400/70 inset-0"></div>}
+      {visible && <div className="z-10 fixed bg-slate-900/70 inset-0"></div>}
 
       <div
-        className={`z-20 fixed top-0 bottom-0 w-3/6 transition-all bg-white ${
+        className={`z-20 fixed top-0 bottom-0 w-3/6 transition-all dark:bg-black bg-white ${
           visible ? "right-0" : "-right-full"
         }`}
       >
         <div className="flex justify-between items-center p-5 border-b-4">
           <button onClick={closeMenu}>X</button>
+          <ThemeChanger />
           <div className="text-2xl">Menu</div>
         </div>
         <ul>
