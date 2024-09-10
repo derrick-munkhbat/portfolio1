@@ -5,19 +5,19 @@ export function MainMenu({ items }) {
   return (
     <div>
       <div className="hidden lg:flex font-bold">
-        {items.map((item) => (
+        {items?.map((item) => (
           <a key={item.id} className="px-4 py-2" href={item.link}>
             {item.label}
           </a>
         ))}
       </div>
 
-      <MobileMenu />
+      <MobileMenu items={items} />
     </div>
   );
 }
 
-function MobileMenu() {
+function MobileMenu({ items }) {
   const [visible, setVisible] = useState(false);
 
   // let open = false;
@@ -48,9 +48,15 @@ function MobileMenu() {
           <button onClick={closeMenu}>X</button>
           <div className="text-2xl">Menu</div>
         </div>
-        <div className="flex justify-between items-center p-5">
-          menu is under review
-        </div>
+        <ul>
+          {items.map((item) => (
+            <li key={item.id}>
+              <a className="block py-2 px-4" href={item.link}>
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </>
   );
